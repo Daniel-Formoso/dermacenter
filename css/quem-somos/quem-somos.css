@@ -1,0 +1,492 @@
+/* ! SEÇÃO 1 - QUEM SOMOS */
+.quem-somos {
+  padding-top: 1rem;
+}
+
+.apresentacao-clinica {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-top: 7rem;
+}
+
+.apresentacao-clinica h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.apresentacao-clinica h2 label {
+  color: #a16aa2;
+  font-size: 2rem;
+}
+
+.apresentacao-clinica h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.apresentacao-clinica p {
+  font-size: 0.9rem;
+}
+
+.apresentacao-clinica .botoes {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.apresentacao-clinica .botoes button {
+  height: 4rem;
+  padding: 0 2rem;
+  border: 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  cursor: pointer;
+  box-shadow: 0px 9px 18px rgba(0, 0, 0, 0.5);
+  transition: 0.6s ease-in-out;
+}
+
+.apresentacao-clinica .botao-contato button {
+  background-color: #a16aa2;
+  color: white;
+}
+
+.apresentacao-clinica .botao-depoimentos button {
+  background-color: #d8bfd8;
+}
+
+.botao-contato button:hover {
+  color: #000;
+  background-color: #d8bfd8c4;
+}
+
+.apresentacao-clinica .botao-depoimentos button:hover {
+  color: white;
+  background-color: #a16aa2;
+}
+
+.container-imagem {
+  width: 18.75rem;
+  height: auto;
+  margin: 0 auto;
+}
+
+.container-imagem img {
+  margin-top: 2rem;
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* ! SEÇÃO 2 - GALERIA DE FOTOS */
+.carrossel-galeria {
+  margin-top: 5rem;
+}
+
+.carrossel-galeria .interface {
+  padding: 0 8%;
+}
+
+.titulo-galeria h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.bg-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55vh;
+  background-color: #d8bfd8;
+}
+
+.swiper {
+  display: flex;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 100%;
+  padding: 1rem 1rem 1.5rem 1rem;
+  border-radius: 30px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none;
+}
+
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 10px;
+  border-radius: 0;
+  background-color: #000;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #a16aa2;
+}
+
+/* ! SEÇÃO 3 - NOSSA HISTORIA */
+.conteudo-nossa-historia {
+  line-height: 35px;
+  margin: 3rem 0;
+}
+
+.conteudo-nossa-historia h4 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.05rem;
+}
+
+.conteudo-nossa-historia h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.conteudo-texto p {
+  font-size: 0.9rem;
+  padding-bottom: 1rem;
+}
+
+.botao-nossa-equipe {
+  margin: 1rem;
+  text-align: center;
+}
+
+.botao-nossa-equipe button {
+  height: 4rem;
+  padding: 0 2rem;
+  margin-top: 0.2rem;
+  border: 0;
+  background-color: #d8bfd8;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  cursor: pointer;
+  box-shadow: 0px 9px 18px rgba(0, 0, 0, 0.5);
+  transition: 0.6s ease-in-out;
+}
+
+.botao-nossa-equipe button:hover {
+  background-color: #a16aa2;
+  color: #fff;
+}
+
+/* ! SEÇÃO 4 - CONTATO */
+.interface-contato {
+  padding: 10% 8%;
+}
+
+.bg-contato {
+  margin-top: 2rem;
+  background-color: #c5a3c6;
+  /* background-color: #D8BFD8; */
+}
+
+.agendar-consulta p {
+  font-size: 1.75rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.agendar-consulta button {
+  height: 4rem;
+  padding: 0 2rem;
+  margin-top: 1.5rem;
+  border: 0;
+  background-color: #a16aa2;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #fff;
+  letter-spacing: 0.05rem;
+  cursor: pointer;
+  box-shadow: 0px 9px 18px rgba(0, 0, 0, 0.5);
+  transition: 0.6s ease-in-out;
+}
+
+.agendar-consulta button:hover {
+  background-color: #a16aa277;
+  color: #000;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .quem-somos {
+    padding-top: 4rem;
+  }
+
+  .apresentacao-clinica h2,
+  .apresentacao-clinica h2 label {
+    font-size: 2.5rem;
+    line-height: 50px;
+  }
+
+  .apresentacao-clinica h3 {
+    font-size: 1.7rem;
+  }
+
+  .apresentacao-clinica p {
+    font-size: 1rem;
+  }
+
+  .container-imagem {
+    width: 37.5rem;
+  }
+
+  .titulo-galeria {
+    margin-bottom: 3rem;
+  }
+
+  .titulo-galeria h2 {
+    font-size: 1.7rem;
+  }
+
+  .bg-slider {
+    height: 30vh;
+  }
+
+  .swiper-slide img {
+    width: 100%;
+    border: 0;
+    border-radius: 30px;
+  }
+
+  .conteudo-nossa-historia h4 {
+    font-size: 1rem;
+    margin-top: 5rem;
+  }
+
+  .conteudo-nossa-historia h2 {
+    font-size: 2.5rem;
+  }
+
+  .conteudo-texto p {
+    font-size: 1rem;
+  }
+
+  .botao-nossa-equipe button {
+    margin: 1rem 0 2rem 0;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .quem-somos {
+    padding-top: 4rem;
+  }
+
+  .apresentacao-clinica h2,
+  .apresentacao-clinica h2 label {
+    font-size: 2.5rem;
+    line-height: 50px;
+  }
+
+  .apresentacao-clinica h3 {
+    font-size: 1.7rem;
+  }
+
+  .apresentacao-clinica p {
+    font-size: 1.2rem;
+  }
+
+  .container-imagem {
+    width: 37.5rem;
+  }
+
+  .titulo-galeria h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .bg-slider {
+    height: 35vh;
+  }
+
+  .swiper-slide {
+    padding: 2rem 2rem 0 2rem;
+  }
+
+  .swiper-slide img {
+    width: 100%;
+  }
+
+  .conteudo-nossa-historia h4 {
+    font-size: 1rem;
+    margin-top: 7rem;
+  }
+
+  .conteudo-nossa-historia h2 {
+    font-size: 2.5rem;
+  }
+
+  .botoes {
+    margin: 2rem;
+  }
+
+  .conteudo-texto p {
+    font-size: 1.2rem;
+  }
+
+  .botao-nossa-equipe button {
+    margin: 1rem 0 2rem 0;
+  }
+
+  .agendar-consulta p {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .quem-somos {
+    padding-top: 4rem;
+  }
+
+  .apresentacao-clinica h2,
+  .apresentacao-clinica h2 label {
+    font-size: 2.5rem;
+    line-height: 50px;
+  }
+
+  .apresentacao-clinica h3 {
+    font-size: 1.7rem;
+  }
+
+  .apresentacao-clinica p {
+    font-size: 1.2rem;
+  }
+
+  .container-imagem {
+    width: 37.5rem;
+  }
+
+  .botoes .botao-contato button,
+  .botoes .botao-depoimentos button,
+  .botao-nossa-equipe button,
+  .agendar-consulta button {
+    width: 22vw;
+    height: 10vh;
+  }
+
+  .titulo-galeria h2 {
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+  }
+
+  .bg-slider {
+    height: 30vh;
+  }
+
+  .swiper-slide {
+    padding: 2rem 2rem 0 2rem;
+  }
+
+  .swiper-slide img {
+    width: 100%;
+  }
+
+  .conteudo-nossa-historia h4 {
+    font-size: 1rem;
+    margin-top: 8rem;
+  }
+
+  .conteudo-nossa-historia h2 {
+    font-size: 2.5rem;
+  }
+
+  .botoes {
+    margin: 2rem;
+  }
+
+  .conteudo-texto p {
+    font-size: 1.2rem;
+  }
+
+  .botao-nossa-equipe button {
+    margin: 1rem 0 2rem 0;
+  }
+
+  .agendar-consulta p {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  section .interface {
+    padding: 0 10%;
+  }
+
+  .header {
+    padding: 0 10%;
+  }
+
+  .swiper-slide img {
+    width: 100%;
+  }
+
+  .container-botoes-e-fotos {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+  }
+
+  .apresentacao-clinica h2,
+  .apresentacao-clinica h2 label {
+    font-size: 2.5rem;
+    line-height: 50px;
+  }
+
+  .apresentacao-clinica h3 {
+    font-size: 2rem;
+    line-height: 100px;
+  }
+
+  .apresentacao-clinica p {
+    font-size: 1.4rem;
+  }
+
+  .conteudo-nossa-historia h4 {
+    font-size: 1rem;
+    margin-top: 8rem;
+    line-height: 50px;
+  }
+
+  .conteudo-nossa-historia h2 {
+    font-size: 2.5rem;
+  }
+
+  .conteudo-texto p {
+    font-size: 1.4rem;
+  }
+
+  .botoes .botao-contato button,
+  .botoes .botao-depoimentos button,
+  .botao-nossa-equipe button,
+  .agendar-consulta button {
+    font-size: 1.4rem;
+  }
+
+  .agendar-consulta p {
+    font-size: 3.5rem;
+  }
+
+  .bg-contato {
+    height: 45vh;
+  }
+
+  .interface-contato {
+    padding: 5% 10%;
+  }
+
+}

@@ -1,0 +1,138 @@
+.primeira-section {
+  padding-top: 5rem;
+}
+
+.introducao h2,
+.objetivo h2,
+.elementos-do-site h2,
+.site-ficticio h2,
+.ferramentas h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.5rem 0;
+  /* line-height: 40px; */
+}
+
+.introducao p,
+.objetivo p,
+.elementos-do-site p,
+.site-ficticio p,
+.ferramentas p,
+.observacao p {
+  font-size: 0.9rem;
+}
+
+.elementos-do-site ul,
+.ferramentas ul {
+  font-size: 0.9rem;
+  list-style: none;
+}
+
+.elementos-do-site ul li,
+.ferramentas ul li {
+  padding: 0.5rem 0 0 0;
+}
+
+.observacao p {
+  margin: 2rem 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.observacao p span {
+  color: red;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .primeira-section {
+    margin-top: 1.5rem;
+  }
+
+  .introducao p,
+  .objetivo p,
+  .elementos-do-site p,
+  .site-ficticio p,
+  .ferramentas p,
+  .observacao p {
+    font-size: 1rem;
+  }
+
+  .elementos-do-site ul,
+  .ferramentas ul {
+    font-size: 1rem;
+  }
+
+  .elementos-do-site ul li,
+  .ferramentas ul li {
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .primeira-section {
+    margin-top: 2rem;
+  }
+
+  .introducao p,
+  .objetivo p,
+  .elementos-do-site p,
+  .site-ficticio p,
+  .ferramentas p,
+  .observacao p {
+    font-size: 1.2rem;
+  }
+
+  .elementos-do-site ul,
+  .ferramentas ul {
+    font-size: 1.2rem;
+  }
+
+  .elementos-do-site ul li,
+  .ferramentas ul li {
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .primeira-section {
+    margin-top: 2rem;
+  }
+
+  .introducao h2,
+  .objetivo h2,
+  .elementos-do-site h2,
+  .site-ficticio h2,
+  .ferramentas h2 {
+    font-size: 2rem;
+    /* color: red; */
+  }
+
+  .introducao p,
+  .objetivo p,
+  .elementos-do-site p,
+  .site-ficticio p,
+  .ferramentas p {
+    font-size: 1.4rem;
+  }
+
+  .observacao p {
+    font-size: 1.6rem;
+    margin: 4rem 0;
+  }
+
+  .elementos-do-site ul,
+  .ferramentas ul {
+    font-size: 1.4rem;
+  }
+
+  .elementos-do-site ul li,
+  .ferramentas ul li {
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .primeira-section {
+    margin-top: 2rem;
+  }
+}

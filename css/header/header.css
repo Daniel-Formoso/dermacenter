@@ -1,0 +1,181 @@
+/* ! Header */
+header {
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 77777;
+}
+
+.menu-desktop {
+    display: none;
+}
+
+.header {
+    display: flex;
+    height: 5rem;
+    padding: 0 8%;
+    align-items: center;
+}
+
+.logo-do-site img {
+    width: 60%;
+}
+
+.btn-abrir-menu {
+    font-size: 35px;
+    /* color: #2C2D3F; */
+    color: #A16AA2;
+}
+
+.menu-mobile .btn-fechar-menu {
+    display: none;
+}
+
+.menu-mobile {
+    background-color: #fff;
+    height: 0;
+    position: absolute;
+    top: 5rem;
+    right: 5vw;
+    left: 5vw;
+    width: 90vw;
+    z-index: 99999;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    transition: .7s;
+}
+
+.menu-mobile.ativo {
+    height: calc(26.5rem - 5rem);
+    border-top: 1px solid #A16AA2;
+}
+
+.menu-mobile.ativo ~ .overlay-menu {
+    display: block;
+}
+
+.menu-mobile nav ul {
+    list-style: none;
+    padding: 14px 0;
+    z-index: 88888;
+}
+
+.menu-mobile nav ul li {
+    padding: 0.6rem 2.2rem;
+}
+
+.menu-mobile nav ul li a {
+    text-decoration: none;
+    font-size: .75rem;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: var(--fonte-poppins);
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: 0.05rem;
+    padding-bottom: 0.13rem;
+    transition: .3s ease-in-out;
+}
+
+.menu-mobile nav ul li a:hover {
+    color: #A16AA2;
+    /* border-bottom: 1px solid #A16AA2; */
+}
+
+.overlay-menu {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .logo-do-site img {
+        width: 40%;
+    }
+
+    .btn-abrir-menu {
+        font-size: 40px;
+    }
+
+    .header {
+        padding: 2.5% 8%;
+        height: 6rem;
+    }
+
+    .menu-mobile {
+        top: 6rem;
+    }
+
+    .menu-mobile nav ul li a {
+        font-size: .9rem;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .logo-do-site img {
+        width: 35%;
+    }
+
+    .btn-abrir-menu {
+        font-size: 40px;
+    }
+
+    .header {
+        height: 7rem;
+    }
+
+    .menu-mobile {
+        top: 7rem;
+    }
+
+    .menu-mobile nav ul li a {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .menu-mobile, .btn-abrir-menu, .overlay-menu {
+        display: none;
+    }
+    
+    .logo-do-site img {
+        width: 230px;
+    }
+
+    .header {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        padding: 2.5% 8%;
+    }
+
+    .menu-desktop {
+        display: block;
+    }
+
+    .menu-desktop ul {
+        font-size: 1rem;
+        display: flex;
+        justify-content: right;
+        gap: 1.5rem;
+        font-weight: 500;
+        align-items: center;        ;
+        list-style: none;
+    }
+
+    .menu-desktop ul li a {
+        color: #000;
+        text-decoration: none;
+        transition: .3s ease-in-out;
+    }
+
+    .menu-desktop ul li a:hover {
+        color: #A16AA2;
+        border-bottom: 1px solid #A16AA2;
+    }
+
+
+}
