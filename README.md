@@ -21,6 +21,9 @@ Para o design visual do site, criei a logo personalizada e utilizei o Adobe Fire
 - Carrossel utilizando a biblioteca Swiper
 - Links de Navegação
 
+## Acessar projeto!
+[Clique aqui para acessar](https://famous-madeleine-da03a2.netlify.app/quem-somos)
+
 ## Quer ver outros projetos? Acesse o meu Portfólio!
 [Clique aqui para acessar](https://meu-site-murex-chi.vercel.app/)
 
