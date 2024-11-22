@@ -38,30 +38,75 @@
   gap: 20px;
 }
 
-.apresentacao-clinica .botoes button {
+.botoes .botao-contato button,
+.botoes .botao-depoimentos button,
+.botao-nossa-equipe button,
+.botao-consulta button {
   height: 4rem;
-  padding: 0 2rem;
   border: 0;
-  width: 100%;
+  width: auto;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 0.9rem;
   letter-spacing: 0.05rem;
   cursor: pointer;
   box-shadow: 0px 9px 18px rgba(0, 0, 0, 0.5);
-  transition: 0.6s ease-in-out;
+  transition: 0.6s;
 }
 
-.apresentacao-clinica .botao-contato button {
+.botoes .botao-contato button a,
+.botoes .botao-depoimentos button a,
+.botao-nossa-equipe button a,
+.botao-consulta button a {
+  text-decoration: none;
+  padding: 20px 10px;
+  transition: 0.6s;
+}
+
+.botoes .botao-contato button {
   background-color: #a16aa2;
-  color: white;
 }
 
-.apresentacao-clinica .botao-depoimentos button {
+.botoes .botao-depoimentos button,
+.botao-nossa-equipe button {
   background-color: #d8bfd8;
 }
 
-.botao-contato button:hover {
+.botao-consulta button {
+  background-color: #a16aa2;
+}
+
+.botoes .botao-depoimentos button a,
+.botao-nossa-equipe button a {
+  color: #000;
+}
+
+.botoes .botao-contato button a,
+.botao-consulta button a {
+  color: #fff;
+}
+
+.botoes .botao-depoimentos button:hover,
+.botao-nossa-equipe button:hover {
+  background-color: #a16aa2;
+}
+
+.botoes .botao-depoimentos button a:hover,
+.botao-nossa-equipe button a:hover {
+  color: white;
+}
+
+.botoes .botao-contato button:hover,
+.botao-consulta button:hover {
+  background-color: #d8bfd8;
+}
+
+.botoes .botao-contato button a:hover,
+.botao-consulta button a:hover {
+  color: #000;
+}
+
+/* .botao-contato button:hover {
   color: #000;
   background-color: #d8bfd8c4;
 }
@@ -69,7 +114,7 @@
 .apresentacao-clinica .botao-depoimentos button:hover {
   color: white;
   background-color: #a16aa2;
-}
+} */
 
 .container-imagem {
   width: 18.75rem;
@@ -102,7 +147,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 55vh;
+  height: 25vh;
+  margin: 7rem 0;
   background-color: #d8bfd8;
 }
 
@@ -117,8 +163,8 @@
   border-radius: 30px;
 }
 
-.swiper-button-prev,
-.swiper-button-next {
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
   display: none;
 }
 
@@ -127,10 +173,6 @@
   height: 10px;
   border-radius: 0;
   background-color: #000;
-}
-
-.swiper-pagination-bullet-active {
-  background-color: #a16aa2;
 }
 
 /* ! SEÇÃO 3 - NOSSA HISTORIA */
@@ -161,7 +203,7 @@
   text-align: center;
 }
 
-.botao-nossa-equipe button {
+/* .botao-nossa-equipe button {
   height: 4rem;
   padding: 0 2rem;
   margin-top: 0.2rem;
@@ -174,12 +216,12 @@
   cursor: pointer;
   box-shadow: 0px 9px 18px rgba(0, 0, 0, 0.5);
   transition: 0.6s ease-in-out;
-}
+} */
 
-.botao-nossa-equipe button:hover {
+/* .botao-nossa-equipe button:hover {
   background-color: #a16aa2;
   color: #fff;
-}
+} */
 
 /* ! SEÇÃO 4 - CONTATO */
 .interface-contato {
@@ -195,10 +237,11 @@
 .agendar-consulta p {
   font-size: 1.75rem;
   color: #fff;
+  margin-bottom: 2rem;
   font-weight: 600;
 }
 
-.agendar-consulta button {
+/* .agendar-consulta button {
   height: 4rem;
   padding: 0 2rem;
   margin-top: 1.5rem;
@@ -217,7 +260,7 @@
 .agendar-consulta button:hover {
   background-color: #a16aa277;
   color: #000;
-}
+} */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .quem-somos {
@@ -242,16 +285,20 @@
     width: 37.5rem;
   }
 
-  .titulo-galeria {
-    margin-bottom: 3rem;
+  .bg-slider {
+    margin: 4rem 0;
   }
+
+  /* .titulo-galeria {
+    margin-bottom: 3rem;
+  } */
 
   .titulo-galeria h2 {
     font-size: 1.7rem;
   }
 
   .bg-slider {
-    height: 30vh;
+    height: 24vh;
   }
 
   .swiper-slide img {
@@ -303,11 +350,11 @@
 
   .titulo-galeria h2 {
     font-size: 2.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
   }
 
   .bg-slider {
-    height: 35vh;
+    height: 30vh;
   }
 
   .swiper-slide {
@@ -368,14 +415,14 @@
   .container-imagem {
     width: 37.5rem;
   }
-
+  /* 
   .botoes .botao-contato button,
   .botoes .botao-depoimentos button,
   .botao-nossa-equipe button,
   .agendar-consulta button {
     width: 22vw;
     height: 10vh;
-  }
+  } */
 
   .titulo-galeria h2 {
     font-size: 2.5rem;
@@ -383,7 +430,7 @@
   }
 
   .bg-slider {
-    height: 30vh;
+    height: 20vh;
   }
 
   .swiper-slide {
@@ -415,6 +462,10 @@
     margin: 1rem 0 2rem 0;
   }
 
+  .menu-desktop .s-p {
+    display: none;
+  }
+
   .agendar-consulta p {
     font-size: 2rem;
     color: #fff;
@@ -427,12 +478,12 @@
     padding: 0 10%;
   }
 
-  .header {
-    padding: 0 10%;
-  }
-
   .swiper-slide img {
     width: 100%;
+  }
+
+  .bg-slider {
+    height: 30vh;
   }
 
   .container-botoes-e-fotos {
@@ -469,24 +520,23 @@
   .conteudo-texto p {
     font-size: 1.4rem;
   }
-
+  /* 
   .botoes .botao-contato button,
   .botoes .botao-depoimentos button,
   .botao-nossa-equipe button,
   .agendar-consulta button {
     font-size: 1.4rem;
-  }
+  } */
 
   .agendar-consulta p {
     font-size: 3.5rem;
   }
 
   .bg-contato {
-    height: 45vh;
+    height: 50vh;
   }
 
   .interface-contato {
     padding: 5% 10%;
   }
-
 }

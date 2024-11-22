@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DermaCenter Louzada - Home</title>
+
     <!-- Link CSS -->
-    <link rel="stylesheet" href="css/css-main.css">
+    <link rel="stylesheet" href="css/fontes/fonts.css"><!--GERAL-->
+    <link rel="stylesheet" href="css/header/header.css"><!--GERAL-->
+    <link rel="stylesheet" href="css/pagina-principal/pagina-principal.css">
+    <link rel="stylesheet" href="css/footer/footer.css"><!--GERAL-->
+
     <!-- Link Bootstrp -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Link Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
+
 <body>
     <header>
         <div class="header">
@@ -24,12 +34,13 @@
 
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="quem-somos.html">Quem Somos</a></li>
-                    <li><a href="#">Nossa Equipe</a></li>
-                    <li><a href="#">Depoimentos</a></li>
-                    <li><a href="#">Localização</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="index.html">Home</a> |</li>
+                    <li><a href="quem-somos.html">Quem Somos</a> |</li>
+                    <li><a href="equipe.html">Nossa Equipe</a> |</li>
+                    <li><a href="procedimentos.html">Procedimentos</a> |</li>
+                    <li><a href="depoimentos.html">Depoimentos</a> |</li>
+                    <li><a href="contato.html">Fale Conosco</a> |</li>
+                    <li><a href="sobre-o-projeto.html">Sobre o Projeto</a></li>
                 </ul>
             </nav>
 
@@ -46,10 +57,10 @@
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="quem-somos.html">Quem Somos</a></li>
-                        <li><a href="#">Nossa Equipe</a></li>
-                        <li><a href="#">Depoimentos</a></li>
-                        <li><a href="#">Localização</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li><a href="equipe.html">Nossa Equipe</a></li>
+                        <li><a href="procedimentos.html">Procedimentos</a></li>
+                        <li><a href="depoimentos.html">Depoimentos</a></li>
+                        <li><a href="contato.html">Fale Conosco</a></li>
                         <li><a href="sobre-o-projeto.html">Sobre o Projeto</a></li>
                     </ul>
                 </nav>
@@ -59,19 +70,408 @@
             <div class="overlay-menu" id="overlay"></div>
 
         </div>
-
     </header>
+
 
     <main>
 
+        <section id="topo-pagina" class="primeira-section">
+
+            <div class="interface">
+
+                <div class="conteudo">
+
+                    <h2>Descubra como cuidamos <label>da sua pele</label></h2>
+
+                    <p>
+                        Acompanhe de perto um de nossos procedimentos exclusivos, realizados com tecnologia de
+                        ponta
+                        e o cuidado especializado de nossos profissionais. Este vídeo mostra como nossa equipe
+                        aborda cada etapa com segurança, conforto e eficácia, para proporcionar os melhores
+                        resultados para a saúde e bem-estar da sua pele.
+                    </p>
+
+                </div><!--conteudo-->
+
+                <div class="container-botao-video">
+
+                    <div class="botao-procedimentos">
+                        <button>
+                            <a href="procedimentos.html">
+                                nossos serviços
+                            </a>                        
+                        </button>
+                    </div>
+
+
+                    <div class="video">
+                        <video class="mobile" controls muted poster="assets/video/banner-video-mobile.webp">
+                            <source src="assets/video/video-mobile.mp4">
+                        </video>
+
+                        <video class="desktop" controls muted poster="assets/video/banner-video-desktop.webp">
+                            <source src="assets/video/video-desktop.mp4">
+                        </video>
+
+                    </div><!--video-->
+
+                </div>
+
+            </div><!--interface-->
+
+        </section>
+
+
         <section>
-            
+
+            <div class="interface">
+
+                <div class="conteudo">
+
+                    <h2>Conheça os Nossos <label>Especialistas!</label></h2>
+
+                    <p>
+                        Na Dermacenter Louzada, nossa equipe de especialistas é composta por profissionais
+                        altamente qualificados e apaixonados pela saúde da sua pele. Cada um com anos de
+                        experiência, dedicados a oferecer o melhor tratamento personalizado para você. Conheça
+                        os nossos médicos e descubra como podemos ajudar a cuidar da sua saúde dermatológica com
+                        excelência.
+                    </p>
+
+                    <div class="botao-medicos">
+                        <button>
+                            <a href="procedimentos.html">
+                                Agende uma Avaliação!
+                            </a>
+                        </button>
+                    </div>
+
+                </div><!--conteudo-->
+
+            </div><!--interface-->
+
+        </section>
+
+
+        <section>
+
+            <div class="interface">
+
+                <div class="conteudo">
+
+                    <h2>Convênios <label>Aceitos</label></h2>
+
+                    <p>
+                        Cuidar da sua pele nunca foi tão fácil! Aceitamos uma ampla gama de convênios para
+                        garantir que você tenha acesso aos melhores tratamentos dermatológicos.
+                    </p>
+
+                </div><!--conteudo-->
+
+                <div class="container-planos">
+                    <div class="logo-convenios">
+                        <img src="assets/logo-convenios/mediplan.webp">
+                    </div>
+                    <div class="logo-convenios">
+                        <img src="assets/logo-convenios/bem-viver.webp">
+                    </div>
+                    <div class="logo-convenios">
+                        <img src="assets/logo-convenios/advanced-care.webp">
+                    </div>
+                    <div class="logo-convenios">
+                        <img src="assets/logo-convenios/hapvida.webp">
+                    </div>
+                    <div class="logo-convenios">
+                        <img src="assets/logo-convenios/uniplanos.webp">
+                    </div>
+                    <div class="logo-convenios">
+                        <img src="assets/logo-convenios/sao-camilo.webp">
+                    </div>
+
+                </div><!--container-planos-->
+
+                <div class="botao-convenios">
+                    <button>
+                        <a href="contato.html">
+                            Agende Sua Consulta!
+                        </a>
+                    </button>
+                </div>
+
+            </div><!--interface-->
+
+        </section>
+
+
+        <section>
+
+            <div class="conteudo">
+
+                <div class="interface">
+
+                    <h2>Atendimento de <label>Excelência</label></h2>
+
+                    <p>
+                        Nosso compromisso é proporcionar a você um atendimento humanizado e de alta qualidade,
+                        com foco no seu bem-estar e saúde.
+                    </p>
+
+                </div>
+
+                <div class="lista-o-que-oferecemos">
+                    <div class="interface-lista">
+                        <ul>
+                            <li>
+                                <i class="bi bi-heart"></i>
+                                <strong>Atendimento Humanizado:</strong> Nossa equipe entende a importância de
+                                ouvir e compreender as necessidades de cada paciente, garantindo um cuidado que
+                                vai além do tratamento médico.
+                            </li>
+                            <li>
+                                <i class="bi bi-laptop"></i>
+                                <strong>Tecnologia Avançada:</strong> Utilizamos equipamentos de última geração
+                                para garantir a segurança e a eficácia dos tratamentos, além de oferecer um
+                                ambiente moderno e confortável.
+                            </li>
+                            <li>
+                                <i class="bi bi-person-check"></i>
+                                <strong>Profissionais Qualificados:</strong> Todos os nossos especialistas são
+                                altamente capacitados, com anos de experiência e compromisso com a constante
+                                atualização em suas áreas de atuação.
+                            </li>
+                            <li>
+                                <i class="bi bi-hand-thumbs-up"></i>
+                                <strong>Atenção aos Pacientes:</strong> Nosso foco está em proporcionar uma
+                                experiência positiva, desde a primeira consulta até o pós-tratamento. Cada
+                                paciente é tratado de forma única, com todo o cuidado e respeito que merece.
+                            </li>
+                        </ul>
+
+                    </div><!--interface-lista-->
+                </div><!--lista-o-que-oferecemos-->
+            </div><!--conteudo-->
+
+            <div class="container-opnioes">
+
+                <div class="interface">
+
+                    <h2><label>Depoimentos</label> de Pacientes</h2>
+
+                    <p>
+                        Experiências reais de quem confiou em nossos cuidados e tratamentos dermatológicos.
+                    </p>
+
+                </div>
+
+                <div class="swiper depoimentos">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="depoimento-nota">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+
+                            <blockquote>
+                                "Moro em Valença e tentei vários tratamentos sem sucesso. Quando procurei a
+                                clínica, a Dra. Louzada me passou confiança desde o início. Ela foi a única
+                                que resolveu meu problema com um tratamento eficaz e humanizado. Valeu muito
+                                a pena a viagem até o Rio para ser atendida por ela!"
+                            </blockquote>
+
+                            <div class="depoimento-autor">
+                                <div class="imagem-autor">
+                                    <img src="assets/fotos-pessoas-depoimentos/pessoa-2.webp">
+                                </div><!--imagem-autor-->
+
+                                <div class="info-autor">
+                                    <h3>Clarice Mendes</h3>
+                                    <p>Valença - RJ</p>
+                                </div><!--info-autor-->
+                            </div><!--depoimento-autor-->
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="depoimento-nota">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+
+                            <blockquote>
+                                "Eu tinha uma lesão na pele que parecia simples, mas com o tempo ficou
+                                preocupante. Quando procurei o Dr. Ricardo, ele me explicou todo o processo
+                                e as opções de tratamento. Fiz a remoção da lesão, e durante o procedimento
+                                ele foi muito cuidadoso. A recuperação foi ótima, sem deixar marcas. Estou
+                                muito satisfeita com o resultado e recomendo!"
+                            </blockquote>
+
+                            <div class="depoimento-autor">
+                                <div class="imagem-autor">
+                                    <img src="assets/fotos-pessoas-depoimentos/pessoa-3.webp">
+                                </div><!--imagem-autor-->
+
+                                <div class="info-autor">
+                                    <h3>Renata Almeida</h3>
+                                    <p>Copacabana - RJ</p>
+                                </div><!--info-autor-->
+                            </div><!--depoimento-autor-->
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="depoimento-nota">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+
+                            <blockquote>
+                                "Fiz uma remoção de lesão com o Dr. Roberto Alves, e estou extremamente
+                                satisfeita com o resultado. Ele foi muito claro e cuidadoso, me explicando
+                                todo o processo e me deixando tranquila durante o procedimento. A
+                                recuperação foi rápida e sem complicações, e o melhor: a lesão foi
+                                completamente removida, sem deixar marcas. Sou muito grata e recomendo!"
+                            </blockquote>
+
+                            <div class="depoimento-autor">
+                                <div class="imagem-autor">
+                                    <img src="assets/fotos-pessoas-depoimentos/pessoa-1.webp">
+                                </div><!--imagem-autor-->
+
+                                <div class="info-autor">
+                                    <h3>Paulo Santos</h3>
+                                    <p>Nova Iguaçu - RJ</p>
+                                </div><!--info-autor-->
+                            </div><!--depoimento-autor-->
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="depoimento-nota">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+
+                            <blockquote>
+                                "Descobri um pequeno sinal na pele que me preocupou, e procurei o Dr. Rafael
+                                Souza. Ele foi muito cuidadoso e me explicou sobre o melanoma e as opções de
+                                tratamento disponíveis. Graças a ele, o câncer foi diagnosticado cedo e
+                                removido com sucesso. O acompanhamento pós-operatório foi excelente. Hoje,
+                                me sinto segura e tranquila, e sou muito grata ao Dr. Rafael por todo o
+                                cuidado e atenção!"
+                            </blockquote>
+
+                            <div class="depoimento-autor">
+                                <div class="imagem-autor">
+                                    <img src="assets/fotos-pessoas-depoimentos/pessoa-4.webp">
+                                </div><!--imagem-autor-->
+
+                                <div class="info-autor">
+                                    <h3>Ana Beatriz</h3>
+                                    <p>Barra da Tijuca - RJ</p>
+                                </div><!--info-autor-->
+                            </div><!--depoimento-autor-->
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="depoimento-nota">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+
+                            <blockquote>
+                                "Fiz uma remoção de uma lesão de pele com o Dr. Ricardo e fiquei muito
+                                impressionada com o profissionalismo e atenção durante todo o processo. Ele
+                                explicou cada passo do procedimento e me deixou muito tranquila. A
+                                recuperação foi excelente, e o resultado foi impecável, sem deixar marcas.
+                                Recomendo totalmente o Dr. Ricardo, ele é muito competente!"
+                            </blockquote>
+
+                            <div class="depoimento-autor">
+                                <div class="imagem-autor">
+                                    <img src="assets/fotos-pessoas-depoimentos/pessoa-5.webp">
+                                </div><!--imagem-autor-->
+
+                                <div class="info-autor">
+                                    <h3>Jéssica Chagas</h3>
+                                    <p>Duque de Caxias - RJ</p>
+                                </div><!--info-autor-->
+                            </div><!--depoimento-autor-->
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="depoimento-nota">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+
+                            <blockquote>
+                                "A queda de cabelo estava me afetando muito, e procurei o Dr. Felipe em
+                                busca de ajuda. Ele me explicou as causas e o tratamento ideal para o meu
+                                caso. Segui o plano com disciplina, e em poucos meses já notei a diferença.
+                                Meu cabelo está mais forte, saudável e volumoso. Agradeço muito ao Dr.
+                                Felipe pela atenção e pelo cuidado durante todo o tratamento!"
+                            </blockquote>
+
+                            <div class="depoimento-autor">
+                                <div class="imagem-autor">
+                                    <img src="assets/fotos-pessoas-depoimentos/pessoa-6.webp">
+                                </div><!--imagem-autor-->
+
+                                <div class="info-autor">
+                                    <h3>Antônio Azambuja</h3>
+                                    <p>Realengo - RJ</p>
+                                </div><!--info-autor-->
+                            </div><!--depoimento-autor-->
+                        </div>
+
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev">
+                        <i class="bi bi-caret-left-fill"></i>
+                    </div>
+                    <div class="swiper-button-next">
+                        <i class="bi bi-caret-right-fill"></i>
+                    </div>
+
+
+                </div>
+
+            </div><!--container-opnios-->
+
+            <div class="botao-depoimentos">
+                <button>
+                    <a href="depoimentos.html">
+                        Leia outros depoimentos
+                    </a>
+                </button>
+            </div>
+            </div>
+
         </section>
 
     </main>
 
     <footer>
-
         <div class="bg-footer">
 
             <div class="interface">
@@ -82,6 +482,7 @@
                     <div class="logo-footer">
                         <img src="assets/logo/logo-dermacenter.webp" alt="Logo Clínica no Footer">
                     </div>
+
 
                     <div class="conteudo-footer">
                         <span>Médica Responável: Aline Louzada</span>
@@ -117,17 +518,17 @@
 
                             <div class="conteudo-links">
                                 <div class="links">
-                                    <a href="#">
+                                    <a href="https://www.linkedin.com/in/danielformoso/" target="_blank">
                                         <i class="bi bi-linkedin"></i>
                                     </a>
                                 </div>
                                 <div class="links">
-                                    <a href="#">
+                                    <a href="https://github.com/Daniel-Formoso" target="_blank">
                                         <i class="bi bi-github"></i>
                                     </a>
                                 </div>
                                 <div class="links">
-                                    <a href="#">
+                                    <a href="https://meu-site-murex-chi.vercel.app/" target="_blank">
                                         <i class="bi bi-display"></i>
                                     </a>
                                 </div>
@@ -137,7 +538,7 @@
                                 <a href="sobre-o-projeto.html">
                                     Sobre o Projeto
                                 </a>
-                            
+
                             </div>
                         </div>
 
@@ -150,8 +551,6 @@
                                 <a href="#topo-pagina"><i class="bi bi-arrow-bar-up"></i></a>
                             </div>
                         </div>
-
-                            
                     </div><!--conteudo-footer-->
                 </div><!--container-footer-->
             </div><!--interface-->
@@ -159,7 +558,9 @@
 
     </footer>
 
-    <script src="script/menu.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script/pagina-principal/slider-depoimentos.js"></script>
+    <script src="script/menu.js"></script>
 </body>
+
 </html>

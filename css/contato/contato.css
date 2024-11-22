@@ -1,0 +1,246 @@
+.container-principal {
+  padding-top: 7rem;
+}
+
+.imagem-formulario {
+  text-align: center;
+}
+
+.imagem-formulario img {
+  max-width: 300px;
+  border-radius: 20px;
+}
+
+h2 {
+  margin: 1rem 0;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h2 span {
+  color: #a16aa2;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 1rem;
+  font-family: var(--fonte-poppins);
+  padding-left: 10px;
+  width: 100%;
+  border: 0.5px solid #00000072;
+  height: 50px;
+  outline: 0;
+}
+
+form label {
+  font-weight: 400;
+  padding-bottom: 0.5rem;
+}
+
+form select {
+  height: 50px;
+  margin-bottom: 1rem;
+}
+
+form textarea {
+  padding: 10px;
+  border: 0.5px solid #00000072;
+  height: 150px;
+}
+
+form button {
+  margin-top: 2rem;
+  height: 50px;
+  font-weight: 600;
+  background-color: #a16aa2;
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  border: 0.5px solid #00000072;
+  transition: 0.5s;
+}
+
+form button:hover {
+  color: #000;
+  background-color: #d8bfd8;
+}
+
+.container-localizacao {
+  margin: 5rem 0;
+}
+
+.mapa {
+  margin: 1rem 0;
+}
+
+.mapa iframe {
+  border: 0.5px solid #00000072;
+  width: 100%;
+  height: 400px;
+}
+
+.conteudo-funcionamento p i {
+  font-size: 1.5rem;
+}
+
+.horario-de-funcionamento h4 {
+  margin: 1.5rem 0 0 0;
+}
+
+.horario-de-funcionamento h4 span,
+.horario-de-funcionamento p span {
+  padding-left: 0.5rem;
+}
+
+.horario-de-funcionamento h4 i {
+  font-size: 1.5rem;
+}
+
+.horario-de-funcionamento ul {
+  list-style: none;
+}
+
+.horario-de-funcionamento ul li {
+  padding: 5px 0;
+}
+
+.telefone-email {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 2rem;
+}
+
+.telefone-email p i {
+  padding-right: 0.5rem;
+}
+
+.conteudo-footer .titulo-horario,
+.conteudo-local i,
+.conteudo-local p,
+.container-contato span,
+.email i,
+.email p,
+.telefone i,
+.telefone p,
+hr.primeiro-hr {
+  display: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .imagem-formulario {
+    text-align: center;
+  }
+
+  .imagem-formulario img {
+    max-width: 500px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1239px) {
+  .imagem-formulario img {
+    max-width: 500px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .interface {
+    padding: 0;
+  }
+
+  .container-principal {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 90vw;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .imagem-formulario {
+    padding-top: 10rem;
+    position: static;
+    right: 8%;
+    /* border: 1px solid red; */
+  }
+
+  .imagem-formulario img {
+    max-width: 600px;
+    border-radius: 20px;
+  }
+
+  .formulario {
+    padding-top: 7rem;
+    width: 50%;
+    /* border: 1px solid red; */
+  }
+
+  form textarea {
+    height: 80px;
+  }
+
+  .container-localizacao {
+    padding: 0 8%;
+  }
+
+  .interface.footer {
+    padding: 0 8%;
+  }
+
+  .container-localizacao {
+    padding-top: 2rem;
+  }
+
+  .mapa {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .mapa iframe {
+    margin: 1rem 0 2rem 0;
+    border: 0.5px solid #00000072;
+    width: 80%;
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  form label {
+    font-size: 1.2rem;
+  }
+
+  .container-principal {
+    margin: 0 auto;
+    max-width: 90vw;
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 5rem; */
+  }
+
+  .imagem-formulario {
+    position: static;
+  }
+
+  form textarea {
+    height: 150px;
+  }
+
+  .imagem-formulario img {
+    max-width: 600px;
+  }
+
+  p, h4, ul {
+    font-size: 1.2rem;
+  }
+
+}
