@@ -21,12 +21,16 @@
 }
 
 .imagem-medico img {
-    max-width: 300px;
+    max-width: 100%;
     border-radius: 20px;
 }
 
 .info-medico {
     margin: .5rem 0 1rem 0;
+}
+
+.info-medico span {
+    color: #a16aa2;
 }
 
 .info-medico h2 {
@@ -37,7 +41,7 @@
     font-size: 1.2rem;
 }
 
-.container-principal-medicos hr {
+section hr {
     border: 0;
     height: 2px;
     background-color: #a16aa2;
@@ -65,24 +69,80 @@
 }
 
 .lista-info p i {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding-right: .2rem;
+    color: #a16aa2;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1239px) {
+    .imagem-medico {
+        text-align: center;
+    }
+    
+    .imagem-medico img {
+        max-width: 40%;
+        border-radius: 20px;
+    }
 }
 
 
-@media screen and (min-width: 1240px) {
+@media screen and (min-width: 1240px) and (max-width: 1650px) {
     .container-principal-medicos {
-        border: 1px solid red;
+        margin-top: 2rem;
+        display: flex;
+        gap: 20px;
     }
 
     .container-info-medico {
-        border: 1px solid green;
-        width: 30%;
-
+        width: 35vw;
+        text-align: center;
     }
 
-    .overlay-menu {
-        display: none;
+    .info-medico h2 {
+        font-size: 1.8rem;
+    }
+
+    .info-medico h4 {
+        font-size: 1rem;
+    }
+
+    .lista-medico {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (min-width: 1651px) {
+    .container-principal-medicos {
+        margin-top: 3rem;
+        display: flex;
+        gap: 40px;
+    }
+
+    .container-info-medico {
+        width: 25vw;
+        text-align: center;
+    }
+
+    .info-medico h2 {
+        font-size: 1.8rem;
+    }
+
+    .info-medico h4 {
+        font-size: 1rem;
+    }
+
+    .lista-medico {
+        width: 100%;
+    }
+
+    .lista-medico p strong {
+        font-size: 1.3rem;
+    }
+
+    .lista-medico p, ul li {
+        font-size: 1.1rem;
     }
 
 }
