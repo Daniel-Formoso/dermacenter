@@ -1,0 +1,88 @@
+.container-principal-medicos {
+    margin-bottom: 2rem;
+}
+
+.titulo-pagina-medico {
+    padding-top: 7rem;
+}
+
+.titulo-pagina-medico h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.titulo-pagina-medico label {
+    color: #a16aa2;
+}
+
+.imagem-medico {
+    margin: 2rem auto 1rem auto;
+}
+
+.imagem-medico img {
+    max-width: 300px;
+    border-radius: 20px;
+}
+
+.info-medico {
+    margin: .5rem 0 1rem 0;
+}
+
+.info-medico h2 {
+    font-size: 2rem;
+}
+
+.info-medico h4 {
+    font-size: 1.2rem;
+}
+
+.container-principal-medicos hr {
+    border: 0;
+    height: 2px;
+    background-color: #a16aa2;
+}
+
+
+.lista-medico ul {
+    font-size: .9rem;
+    list-style: none;
+}
+
+.lista-info {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+.lista-info p strong {
+    font-size: 1rem;
+}
+
+.lista-info ul {
+    padding-left: 20px;
+    list-style: disc;
+}
+
+.lista-info p i {
+    font-size: 1.2rem;
+    padding-right: .2rem;
+}
+
+
+@media screen and (min-width: 1240px) {
+    .container-principal-medicos {
+        border: 1px solid red;
+    }
+
+    .container-info-medico {
+        border: 1px solid green;
+        width: 30%;
+
+    }
+
+    .overlay-menu {
+        display: none;
+    }
+
+}

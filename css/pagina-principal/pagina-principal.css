@@ -493,8 +493,8 @@ blockquote {
     font-size: 1.4rem;
   }
 
-  section .interface {
-    padding: 0 10%;
+  .lista-o-que-oferecemos ul {
+    font-size: 1.4rem;
   }
 
   .container-botao-video {

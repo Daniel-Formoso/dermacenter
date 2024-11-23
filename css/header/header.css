@@ -88,9 +88,10 @@ header {
   width: 100vw;
   height: 100vh;
   position: fixed;
-  top: 0;
+  top: 5rem;
   left: 0;
   display: none;
+  background-color: rgba(0, 0, 0, 0.35);
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -140,8 +141,11 @@ header {
 
 @media screen and (min-width: 1240px) and (max-width: 1365px) {
   .menu-mobile,
-  .btn-abrir-menu,
-  .overlay-menu {
+  .btn-abrir-menu {
+    display: block;
+  }
+
+  .menu-mobile.ativo ~ .overlay-menu {
     display: block;
   }
 
@@ -188,7 +192,11 @@ header {
   .menu-desktop ul {
     list-style: none;
     display: flex;
-    gap: 5px;
+    gap: 1.5rem;
+  }
+
+  .menu-desktop ul {
+    font-size: .9rem;
   }
 
   .menu-desktop ul li a {

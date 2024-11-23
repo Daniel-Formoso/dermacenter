@@ -50,6 +50,8 @@ form textarea {
   padding: 10px;
   border: 0.5px solid #00000072;
   height: 150px;
+  resize: none;
+  outline: 0;
 }
 
 form button {
@@ -141,6 +143,16 @@ hr.primeiro-hr {
     max-width: 500px;
     border-radius: 20px;
   }
+
+  p {
+    font-size: 1rem;
+  }
+
+  ul.horarios {
+    font-size: 1rem;
+  }
+
+
 }
 
 @media screen and (min-width: 993px) and (max-width: 1239px) {
@@ -164,10 +176,9 @@ hr.primeiro-hr {
   }
 
   .imagem-formulario {
-    padding-top: 10rem;
+    padding-top: 11rem;
     position: static;
     right: 8%;
-    /* border: 1px solid red; */
   }
 
   .imagem-formulario img {
@@ -178,7 +189,6 @@ hr.primeiro-hr {
   .formulario {
     padding-top: 7rem;
     width: 50%;
-    /* border: 1px solid red; */
   }
 
   form textarea {
@@ -224,10 +234,10 @@ hr.primeiro-hr {
     max-width: 90vw;
     display: flex;
     justify-content: space-evenly;
-    /* gap: 5rem; */
   }
 
   .imagem-formulario {
+    padding-top: 13rem;
     position: static;
   }
 
@@ -239,8 +249,11 @@ hr.primeiro-hr {
     max-width: 600px;
   }
 
-  p, h4, ul {
+  p, ul.horarios {
     font-size: 1.2rem;
   }
 
+  .horario-de-funcionamento h4 {
+    font-size: 1.2rem;
+  }
 }
