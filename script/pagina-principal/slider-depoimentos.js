@@ -1,6 +1,5 @@
 const swiper = new Swiper(".swiper", {
   loop: true,
-  cssMode: true,
   autoplay: {
     delay: 2500,
     disableOnInteraction: false,

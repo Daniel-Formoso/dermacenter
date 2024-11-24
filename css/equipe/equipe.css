@@ -75,6 +75,15 @@ section hr {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1239px) {
+    .primeira-section {
+        padding-top: 4rem;
+    }
+
+    .titulo-pagina-medico h2 {
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+   
     .imagem-medico {
         text-align: center;
     }
@@ -141,7 +150,10 @@ section hr {
         font-size: 1.3rem;
     }
 
-    .lista-medico p, ul li {
+    ul.lista-especializacoes,
+    ul.lista-certificacoes,
+    ul.lista-tratamentos,
+    p {
         font-size: 1.1rem;
     }
 
