@@ -1,0 +1,124 @@
+.primeira-section {
+  padding-top: 8rem;
+}
+
+.titulo-subtitulo-procedimentos h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.titulo-subtitulo-procedimentos h2 span {
+  color: #a16aa2;
+}
+
+.titulo-subtitulo-procedimentos p {
+  font-size: 0.9rem;
+  margin: 1rem 0 4rem 0;
+}
+
+.procedimentos h2 {
+  font-size: 1.4rem;
+  /* margin-top: 3rem; */
+  font-weight: 600;
+}
+
+.procedimentos p {
+  padding-bottom: 0.3rem;
+}
+
+.imagem-procedimento img {
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 1.5rem;
+}
+
+section hr {
+  border: 0;
+  height: 2px;
+  background-color: #a16aa2;
+  margin: 1.5rem 0;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .container-procedimentos {
+        display: grid;
+        column-gap: 50px;
+        grid-template-columns: repeat(2, 1fr);   
+    }
+
+    .procedimentos {
+        border-top: 2px solid #a16aa2;
+        /* border: 1px solid red; */
+        padding-top: 1rem;
+        margin-top: 1rem;
+    }
+
+    .imagem-procedimento {
+        text-align: center;
+    }
+
+    .imagem-procedimento img {
+        max-width: 350px;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .container-procedimentos {
+        display: grid;
+        column-gap: 50px;
+        grid-template-columns: repeat(2, 1fr);   
+    }
+
+    .procedimentos {
+        border-top: 2px solid #a16aa2;
+        /* border: 1px solid red; */
+        padding-top: 1rem;
+        margin-top: 1rem;
+    }
+
+    .imagem-procedimento {
+        text-align: center;
+    }
+
+    .imagem-procedimento img {
+        max-width: 350px;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .container-procedimentos {
+        display: grid;
+        column-gap: 50px;
+        grid-template-columns: repeat(2, 1fr);   
+    }
+
+    .procedimentos {
+        border-top: 2px solid #a16aa2;
+        padding-top: 1rem;
+        margin-top: 1rem;
+    }
+
+    .imagem-procedimento {
+        text-align: center;
+    }
+
+    .imagem-procedimento img {
+        max-width: 70%;
+    }
+
+    hr {
+        display: none;
+    }
+}

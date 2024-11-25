@@ -182,10 +182,6 @@ blockquote {
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  /* main {
-    margin-top: 10rem;
-  } */
-
   .conteudo h2,
   .container-opnioes h2 {
     font-size: 2.5rem;

@@ -106,16 +106,6 @@
   color: #000;
 }
 
-/* .botao-contato button:hover {
-  color: #000;
-  background-color: #d8bfd8c4;
-}
-
-.apresentacao-clinica .botao-depoimentos button:hover {
-  color: white;
-  background-color: #a16aa2;
-} */
-
 .container-imagem {
   width: 18.75rem;
   height: auto;
@@ -168,11 +158,8 @@
   display: none;
 }
 
-.swiper-pagination-bullet {
-  width: 20px;
-  height: 10px;
-  border-radius: 0;
-  background-color: #000;
+.swiper-pagination {
+  display: none;
 }
 
 /* ! SEÇÃO 3 - NOSSA HISTORIA */

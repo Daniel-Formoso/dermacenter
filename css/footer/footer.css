@@ -1,5 +1,22 @@
+.gradient-background {
+  background: linear-gradient(273deg,#d8bfd8,#c5a3c6,#a16aa2);
+  background-size: 180% 180%;
+  animation: gradient-animation 6s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .bg-footer {
-  background-color: #a16aa2;
   padding-bottom: 1rem;
 }
 
@@ -205,12 +222,10 @@ hr {
   .conteudo-local,
   .conteudo-contato p,
   .sobre-o-projeto,
-  .autor-do-site .autor  {
+  .autor-do-site .autor {
     font-size: 1.1rem;
     /* color: red; */
   }
-
-
 }
 
 @media screen and (min-width: 1920px) and (max-width: 1920px) {

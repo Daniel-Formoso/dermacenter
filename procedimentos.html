@@ -1,11 +1,485 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DermaCenter Louzada - Home</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/fontes/fonts.css"><!--GERAL-->
+    <link rel="stylesheet" href="css/header/header.css"><!--GERAL-->
+    <link rel="stylesheet" href="css/prodecimentos/procedimentos.css">
+    <link rel="stylesheet" href="css/footer/footer.css"><!--GERAL-->
+
+    <!-- Link Bootstrp -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Link Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
+
 <body>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio laborum, porro officiis quidem beatae nesciunt blanditiis! Iusto tenetur delectus, itaque recusandae neque non, incidunt, facere nihil eum quaerat ratione vel?
+    <header>
+        <div class="header">
+
+            <div class="logo-do-site">
+                <img src="assets/logo/logo-lilas-icone.webp" alt="Logo da DermaCenter Louzada" loading="lazy">
+            </div>
+
+            <div class="btn-abrir-menu" id="btn-abrir-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="quem-somos.html">Quem Somos</a></li>
+                    <li><a href="equipe.html">Nossa Equipe</a></li>
+                    <li><a href="procedimentos.html">Procedimentos</a></li>
+                    <li><a href="depoimentos.html">Depoimentos</a></li>
+                    <li><a href="contato.html">Fale Conosco</a></li>
+                    <li><a href="sobre-o-projeto.html">Sobre o Projeto</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <div class="interface-header">
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar-menu">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="quem-somos.html">Quem Somos</a></li>
+                        <li><a href="equipe.html">Nossa Equipe</a></li>
+                        <li><a href="procedimentos.html">Procedimentos</a></li>
+                        <li><a href="depoimentos.html">Depoimentos</a></li>
+                        <li><a href="contato.html">Fale Conosco</a></li>
+                        <li><a href="sobre-o-projeto.html">Sobre o Projeto</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+            <div class="overlay-menu" id="overlay"></div>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <section id="topo-pagina" class="primeira-section">
+
+            <div class="interface">
+                <div class="titulo-subtitulo-procedimentos">
+                    <h2>Procedimentos Dermatológicos <span>Avançados</span></h2>
+                    <p>
+                        Na DermaCenter Louzada, oferecemos uma ampla gama de procedimentos dermatológicos
+                        especializados, realizados por nossa equipe de profissionais altamente qualificados. Seja para
+                        tratar condições da pele, prevenir o envelhecimento ou cuidar da saúde dos cabelos, nossos
+                        tratamentos são personalizados para atender às suas necessidades específicas. Conheça abaixo os
+                        principais procedimentos que realizamos e descubra como podemos ajudar a melhorar sua saúde e
+                        bem-estar.
+                    </p>
+                </div><!--titulo-procedimentos-->
+            </div><!--interfsce-->
+
+            <div class="interface">
+                <div class="container-procedimentos">
+
+                    <div class="procedimentos">
+                        <h2>Remoção de Lesões Cutâneas Benignas</h2>
+                        <p>
+                            Cirurgia para remover cistos, lipomas, verrugas ou outras lesões benignas da pele.
+                        </p>
+                        <p>
+                            <strong>Indicações: </strong>
+                            Lesões que incomodam esteticamente ou que crescem de forma
+                            anormal.
+                        </p>
+                        <p>
+                            <strong>Benefícios: </strong>
+                            Remoção rápida, com resultados estéticos satisfatórios.
+                        </p>
+                        <p>
+                            <strong>Tempo de Recuperação: </strong>
+                            7-14 dias, com cicatrização completa.
+                        </p>
+                        <div class="imagem-procedimento">
+                            <img src="assets/procedimentos/procedimento-1.webp">
+                        </div>
+                    </div><!--procedimentos-->
+
+                    <hr>
+
+                    <div class="procedimentos">
+                        <h2>Excisão de Câncer de Pele</h2>
+                        <p>
+                            Procedimento cirúrgico para remover tumores de pele malignos, como carcinoma basocelular, espinocelular ou melanoma.
+                        </p>
+                        <p>
+                            <strong>Indicações: </strong>
+                            Câncer de pele diagnosticado por biópsia.
+                        </p>
+                        <p>
+                            <strong>Benefícios: </strong>
+                            Tratamento definitivo para tumores malignos, prevenção de disseminação.
+                        </p>
+                        <p>
+                            <strong>Tempo de Recuperação: </strong> 
+                            Cicatrização em 10-14 dias.
+                        </p>
+                        <div class="imagem-procedimento">
+                            <img src="assets/procedimentos/procedimento-2.webp">
+                        </div>
+                    </div><!--procedimentos-->
+                    
+                    <hr>
+                    
+                    <div class="procedimentos">
+                        <h2>Cirurgia para Correção de Cicatrizes</h2>
+                        <p>
+                            Procedimento para melhorar o aspecto de cicatrizes antigas, utilizando técnicas como ressecção cirúrgica ou enxertos.
+                        </p>
+                        <p>
+                            <strong>Indicações: </strong>
+                            Cicatrizes hipertróficas, queloides ou cicatrizes inestéticas após traumas.
+                        </p>
+                        <p>
+                            <strong>Benefícios: </strong>
+                            Melhora significativa na aparência e textura das cicatrizes.
+                        </p>
+                        <p>
+                            <strong>Tempo de Recuperação: </strong> 
+                            Varia conforme o procedimento, em geral de 2-3 semanas.
+                        </p>
+                        <div class="imagem-procedimento">
+                            <img src="assets/procedimentos/procedimento-3.webp">
+                        </div>
+                    </div><!--procedimentos-->
+
+                    <hr>
+                    
+                    <div class="procedimentos">
+                        <h2>Biópsia de Pele</h2>
+                        <p>
+                            Procedimento cirúrgico simples onde uma amostra da pele é retirada para análise laboratorial, geralmente para diagnóstico de câncer de pele ou outras doenças dermatológicas.
+                        </p>
+                        <p>
+                            <strong>Indicações: </strong>
+                            Lesões suspeitas, diagnóstico de doenças de pele.
+                        </p>
+                        <p>
+                            <strong>Benefícios: </strong>
+                            Diagnóstico precoce e preciso de condições dermatológicas.
+                        </p>
+                        <p>
+                            <strong>Tempo de Recuperação: </strong> 
+                            Pequena cicatriz, dependendo do tipo de biópsia, cicatrização em 7-14 dias.
+                        </p>
+                        <div class="imagem-procedimento">
+                            <img src="assets/procedimentos/procedimento-4.webp">
+                        </div>
+                    </div><!--procedimentos-->
+
+                    <hr>
+                    
+                    <div class="procedimentos">
+                        <h2>Aplicação de Toxina Botulínica</h2>
+                        <p>
+                            Procedimento estético que paralisa temporariamente os músculos responsáveis pelas rugas dinâmicas, como as da testa, entre as sobrancelhas e ao redor dos olhos.
+                        </p>
+                        <p>
+                            <strong>Indicações: </strong>
+                            Linhas de expressão na testa, "pés de galinha", rugas ao redor dos olhos.
+                        </p>
+                        <p>
+                            <strong>Benefícios: </strong>
+                            Redução visível das rugas e linhas finas, prevenção da formação de rugas profundas.
+                        </p>
+                        <p>
+                            <strong>Tempo de Recuperação: </strong> 
+                            Resultado começa a aparecer em 3-5 dias, recuperação rápida e sem necessidade de afastamento de atividades.
+                        </p>
+                        <div class="imagem-procedimento">
+                            <img src="assets/procedimentos/procedimento-5.webp">
+                        </div>
+                    </div><!--procedimentos-->
+
+                    <hr>
+                    
+                    <div class="procedimentos">
+                        <h2>Peeling Químico</h2>
+                        <p>
+                            Aplicação de substâncias químicas que promovem a descamação controlada da pele, estimulando a renovação celular e tratando manchas, cicatrizes de acne e rugas finas.
+                        </p>
+                        <p>
+                            <strong>Indicações: </strong>
+                            Manchas solares, cicatrizes de acne, textura irregular da pele.
+                        </p>
+                        <p>
+                            <strong>Benefícios: </strong>
+                            Pele mais lisa, uniforme e rejuvenescida.
+                        </p>
+                        <p>
+                            <strong>Tempo de Recuperação: </strong> 
+                            Varia conforme a profundidade do peeling; leve descamação por 3-7 dias.
+                        </p>
+                        <div class="imagem-procedimento">
+                            <img src="assets/procedimentos/procedimento-6.webp">
+                        </div>
+                    </div><!--procedimentos-->
+
+                    <hr>
+                    
+                    <div class="procedimentos">
+                        <h2>Cirurgia Micrográfica de Mohs</h2>
+                        <p>
+                            Técnica cirúrgica avançada para remoção de cânceres de pele com precisão, removendo camadas de tecido até que não restem células cancerígenas.
+                        </p>
+                        <p>
+                            <strong>Indicações: </strong>
+                            Carcinoma basocelular, carcinoma espinocelular e alguns melanomas.
+                        </p>
+                        <p>
+                            <strong>Benefícios: </strong>
+                            Alta taxa de cura, preservação do máximo de tecido saudável.
+                        </p>
+                        <p>
+                            <strong>Tempo de Recuperação: </strong> 
+                            Cicatrização em 2-3 semanas.
+                        </p>
+                        <div class="imagem-procedimento">
+                            <img src="assets/procedimentos/procedimento-7.webp">
+                        </div>
+                    </div><!--procedimentos-->
+
+                    <hr>
+                    
+                    <div class="procedimentos">
+                        <h2>Enxerto de Pele</h2>
+                        <p>
+                            Procedimento cirúrgico que envolve a transferência de pele de uma área saudável para uma área que sofreu perda de tecido, como após remoção de tumores.
+                        </p>
+                        <p>
+                            <strong>Indicações: </strong>
+                            Grandes lesões, remoção de câncer de pele, queimaduras.
+                        </p>
+                        <p>
+                            <strong>Benefícios: </strong>
+                            Restauração da função e aparência da pele danificada.
+                        </p>
+                        <p>
+                            <strong>Tempo de Recuperação: </strong> 
+                            2-4 semanas.
+                        </p>
+                        <div class="imagem-procedimento">
+                            <img src="assets/procedimentos/procedimento-8.webp">
+                        </div>
+                    </div><!--procedimentos-->
+
+                    <hr>
+                    
+                    <div class="procedimentos">
+                        <h2>Fototerapia para Tratamento de Psoríase</h2>
+                        <p>
+                            Tratamento que usa luz ultravioleta controlada para reduzir a inflamação da pele em condições como psoríase e vitiligo.
+                        </p>
+                        <p>
+                            <strong>Indicações: </strong>
+                            Psoríase, vitiligo, dermatite atópica.
+                        </p>
+                        <p>
+                            <strong>Benefícios: </strong>
+                            Controle das lesões, redução da inflamação e melhora dos sintomas.
+                        </p>
+                        <p>
+                            <strong>Tempo de Recuperação: </strong> 
+                            Tratamento em sessões semanais, com melhora gradual.
+                        </p>
+                        <div class="imagem-procedimento">
+                            <img src="assets/procedimentos/procedimento-9.webp">
+                        </div>
+                    </div><!--procedimentos-->
+
+                    <hr>
+                    
+                    <div class="procedimentos">
+                        <h2>Criocirurgia para Lesões Pré-Cancerosas</h2>
+                        <p>
+                            Tratamento de lesões pré-cancerosas e algumas lesões malignas com nitrogênio líquido, congelando as células afetadas para posterior eliminação.
+                        </p>
+                        <p>
+                            <strong>Indicações: </strong>
+                            Queratoses actínicas, lesões malignas superficiais.
+                        </p>
+                        <p>
+                            <strong>Benefícios: </strong>
+                            Remoção eficaz de lesões com mínima cicatrização.
+                        </p>
+                        <p>
+                            <strong>Tempo de Recuperação: </strong> 
+                            Cicatrização em 7-10 dias.
+                        </p>
+                        <div class="imagem-procedimento">
+                            <img src="assets/procedimentos/procedimento-10.webp">
+                        </div>
+                    </div><!--procedimentos-->
+
+                    <hr>
+                    
+                    <div class="procedimentos">
+                        <h2>Tratamento com Laser para Queda de Cabelo</h2>
+                        <p>
+                            Terapia a laser de baixa intensidade que estimula os folículos capilares, promovendo o crescimento de cabelo em áreas de calvície ou afinamento.
+                        </p>
+                        <p>
+                            <strong>Indicações: </strong>
+                            Alopécia androgenética, queda de cabelo em geral.
+                        </p>
+                        <p>
+                            <strong>Benefícios: </strong>
+                            Estímulo ao crescimento capilar e melhora da densidade do cabelo.
+                        </p>
+                        <p>
+                            <strong>Tempo de Recuperação: </strong> 
+                            Procedimento indolor e não invasivo, com várias sessões necessárias.
+                        </p>
+                        <div class="imagem-procedimento">
+                            <img src="assets/procedimentos/procedimento-11.webp">
+                        </div>
+                    </div><!--procedimentos-->
+
+                    <hr>
+                    
+                    <div class="procedimentos">
+                        <h2>Microinfusão de Medicamentos na Pele (MMP)</h2>
+                        <p>
+                            Técnica em que medicamentos ou ativos cosméticos são introduzidos na pele com microagulhas, estimulando a renovação celular e a hidratação profunda.
+                        </p>
+                        <p>
+                            <strong>Indicações: </strong>
+                            Rugas finas, flacidez, manchas e cicatrizes.
+                        </p>
+                        <p>
+                            <strong>Benefícios: </strong>
+                            Pele mais firme, hidratada e rejuvenescida.
+                        </p>
+                        <p>
+                            <strong>Tempo de Recuperação: </strong> 
+                            Vermelhidão temporária, sem afastamento de atividades.
+                        </p>
+                        <div class="imagem-procedimento">
+                            <img src="assets/procedimentos/procedimento-12.webp">
+                        </div>
+                    </div><!--procedimentos-->
+
+                </div><!--container-procedimentos-->
+            </div><!--interface-->
+
+        </section>
+
+    </main>
+
+    <footer class="gradient-background">
+
+        <div class="bg-footer">
+
+            <div class="interface">
+
+                <div class="container-footer">
+
+
+                    <div class="logo-footer">
+                        <img src="assets/logo/logo-dermacenter.webp" alt="Logo Clínica no Footer" loading="lazy">
+                    </div>
+
+
+                    <div class="conteudo-footer">
+                        <span>Médica Responável: Aline Louzada</span>
+                        <span>CRMRJ 123456 RQE 7891011</span>
+                        <span>Local de Funcionamento</span>
+                        <div class="conteudo-local">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <p>Avenida das Américas, 1234, Sala 56
+                                Barra da Tijuca, Rio de Janeiro, RJ
+                                CEP: 12345-678</p>
+                        </div>
+
+                        <hr>
+
+                        <div class="container-contato">
+                            <span>Contato</span>
+                            <div class="conteudo-contato">
+                                <div class="email">
+                                    <i class="bi bi-envelope-fill"></i>
+                                    <p>contato@dermacenter.com.br</p>
+                                </div><!--email-->
+
+                                <div class="telefone">
+                                    <i class="bi bi-whatsapp"></i>
+                                    <p> +55 21 91234-5678</p>
+                                </div><!--telefone-->
+                            </div><!--conteudo-contato-->
+                        </div><!--container-contato-->
+
+                        <hr>
+
+                        <div class="container-links">
+
+                            <div class="conteudo-links">
+                                <div class="links">
+                                    <a href="https://www.linkedin.com/in/danielformoso/" target="_blank">
+                                        <i class="bi bi-linkedin"></i>
+                                    </a>
+                                </div>
+                                <div class="links">
+                                    <a href="https://github.com/Daniel-Formoso" target="_blank">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </div>
+                                <div class="links">
+                                    <a href="https://meu-site-murex-chi.vercel.app/" target="_blank">
+                                        <i class="bi bi-display"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="sobre-o-projeto">
+                                <a href="sobre-o-projeto.html">
+                                    Sobre o Projeto
+                                </a>
+
+                            </div>
+                        </div>
+
+                        <div class="autor-do-site">
+                            <div class="autor">
+                                <span>Desenvolvido por Daniel Formoso</span>
+                                <span>&copy; 2024: Todos os Direitos Reservados</span>
+                            </div>
+                            <div class="voltar-topo">
+                                <a href="#topo-pagina"><i class="bi bi-arrow-bar-up"></i></a>
+                            </div>
+                        </div>
+                    </div><!--conteudo-footer-->
+                </div><!--container-footer-->
+            </div><!--interface-->
+        </div><!--bg-footer-->
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script/pagina-principal/slider-depoimentos.js"></script>
+    <script src="script/menu.js"></script>
 </body>
+
 </html>
