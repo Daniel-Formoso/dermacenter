@@ -1,160 +1,163 @@
 .container-principal-medicos {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .titulo-pagina-medico {
-    padding-top: 7rem;
+  padding-top: 7rem;
 }
 
 .titulo-pagina-medico h2 {
-    font-size: 2rem;
-    font-weight: 600;
-    line-height: 40px;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 40px;
 }
 
 .titulo-pagina-medico label {
-    color: #a16aa2;
+  color: #a16aa2;
 }
 
 .imagem-medico {
-    margin: 2rem auto 1rem auto;
+  margin: 2rem auto 1rem auto;
 }
 
 .imagem-medico img {
-    max-width: 100%;
-    border-radius: 20px;
+  max-width: 100%;
+  border-radius: 20px;
 }
 
 .info-medico {
-    margin: .5rem 0 1rem 0;
+  margin: 0.5rem 0 1rem 0;
 }
 
 .info-medico span {
-    color: #a16aa2;
+  color: #a16aa2;
 }
 
 .info-medico h2 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .info-medico h4 {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 section hr {
-    border: 0;
-    height: 2px;
-    background-color: #a16aa2;
+  border: 0;
+  height: 2px;
+  background-color: #a16aa2;
 }
 
-
 .lista-medico ul {
-    font-size: .9rem;
-    list-style: none;
+  font-size: 0.9rem;
+  list-style: none;
 }
 
 .lista-info {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
 }
 
 .lista-info p strong {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .lista-info ul {
-    padding-left: 20px;
-    list-style: disc;
+  padding-left: 20px;
+  list-style: disc;
 }
 
 .lista-info p i {
-    font-size: 1.5rem;
-    padding-right: .2rem;
-    color: #a16aa2;
+  font-size: 1.5rem;
+  padding-right: 0.2rem;
+  color: #a16aa2;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1239px) {
-    .primeira-section {
-        padding-top: 4rem;
-    }
+  .primeira-section {
+    padding-top: 4rem;
+  }
 
-    .titulo-pagina-medico h2 {
-        font-size: 2.5rem;
-        font-weight: 600;
-    }
-   
-    .imagem-medico {
-        text-align: center;
-    }
-    
-    .imagem-medico img {
-        max-width: 40%;
-        border-radius: 20px;
-    }
+  .titulo-pagina-medico h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  .imagem-medico {
+    text-align: center;
+  }
+
+  .imagem-medico img {
+    max-width: 40%;
+    border-radius: 20px;
+  }
 }
 
-
 @media screen and (min-width: 1240px) and (max-width: 1650px) {
-    .container-principal-medicos {
-        margin-top: 2rem;
-        display: flex;
-        gap: 20px;
-    }
+  .container-principal-medicos {
+    margin-top: 2rem;
+    display: flex;
+    gap: 20px;
+  }
 
-    .container-info-medico {
-        width: 35vw;
-        text-align: center;
-    }
+  .container-info-medico {
+    width: 35vw;
+    text-align: center;
+  }
 
-    .info-medico h2 {
-        font-size: 1.8rem;
-    }
+  .info-medico h2 {
+    font-size: 1.8rem;
+  }
 
-    .info-medico h4 {
-        font-size: 1rem;
-    }
+  .info-medico h4 {
+    font-size: 1rem;
+  }
 
-    .lista-medico {
-        width: 100%;
-    }
-
-
+  .lista-medico {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 1651px) {
-    .container-principal-medicos {
-        margin-top: 3rem;
-        display: flex;
-        gap: 40px;
-    }
+  .primeira-section {
+    padding-top: 5rem;
+  }
 
-    .container-info-medico {
-        width: 25vw;
-        text-align: center;
-    }
+  .container-principal-medicos {
+    margin-top: 3rem;
+    display: flex;
+    gap: 40px;
+  }
 
-    .info-medico h2 {
-        font-size: 1.8rem;
-    }
+  .titulo-pagina-medico h2 {
+    font-size: 2.5rem;
+  }
 
-    .info-medico h4 {
-        font-size: 1rem;
-    }
+  .container-info-medico {
+    width: 25vw;
+    text-align: center;
+  }
 
-    .lista-medico {
-        width: 100%;
-    }
+  .info-medico h2 {
+    font-size: 1.8rem;
+  }
 
-    .lista-medico p strong {
-        font-size: 1.3rem;
-    }
+  .info-medico h4 {
+    font-size: 1rem;
+  }
 
-    ul.lista-especializacoes,
-    ul.lista-certificacoes,
-    ul.lista-tratamentos,
-    p {
-        font-size: 1.1rem;
-    }
+  .lista-medico {
+    width: 100%;
+  }
 
+  .lista-medico p strong {
+    font-size: 1.3rem;
+  }
+
+  ul.lista-especializacoes,
+  ul.lista-certificacoes,
+  ul.lista-tratamentos,
+  p {
+    font-size: 1.1rem;
+  }
 }
