@@ -20,12 +20,12 @@ Para o design visual do site, criei a logo personalizada e utilizei o Adobe Fire
 - Links de Navegação
 
 ## Acessar projeto!
-[Clique aqui para acessar](https://famous-madeleine-da03a2.netlify.app/quem-somos)
+- [Deploy](https://famous-madeleine-da03a2.netlify.app/quem-somos)
 
-## Quer ver outros projetos? Acesse o meu Portfólio!
-[Clique aqui para acessar](https://meu-site-murex-chi.vercel.app/)
+## Quer ver outros projetos? Acesse o meu Portfólio ou meu GitHub!
+- [Clique aqui para acessar](https://meu-site-murex-chi.vercel.app/)
+- [GitHub](https://github.com/Daniel-Formoso)  
 
 ## Contatos:
 - E-mail: daniel.formoso100@gmail.com
 - [LinkedIn](https://www.linkedin.com/in/danielformoso/)
-
